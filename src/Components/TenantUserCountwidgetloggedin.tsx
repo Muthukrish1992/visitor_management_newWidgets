@@ -239,7 +239,7 @@ import React, { useCallback, useEffect } from "react";
 import { DatePicker, Button, Checkbox, DataTable, FilterPanel, FormField, IconButton, Input, Label, Modal, ProfileImage, SearchBox, Select, TitleBar, useToast, WidgetWrapper, useEventSubscriber, useDebounce } from "uxp/components";
 import { IContextProvider, registerWidget } from "../uxp";
 import MemorizedData from "./memorizedData";
-import { x64 } from "crypto-js";
+
 
 interface ITenantUserProps {
     uxpContext?: IContextProvider,

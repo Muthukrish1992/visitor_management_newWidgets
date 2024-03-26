@@ -1,0 +1,41 @@
+{
+    "id": "30ae10be-15ec-4ed6-ce18-5524e27173fc",
+    "author": "muthu",
+    "widgets": [
+        {
+            "id": "visitor_management_newWidgets",
+            "name": "visitor_management_newWidgets",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        },
+        {
+            "id":"TenantUserCountwidgetloggedin",
+            "name": "Tenant wise User Attendance",
+            "description": "Tenant wise User Attendance",
+            "icon": "",
+            "tags":[]
+        },
+        {
+            "id":"TenantUserCountwidget",
+            "name":"User Attendance",
+            "description":"User Attendance",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+        {
+            "id": "mobile-uiv2",
+            "label": "Visitor Registration"
+          }
+    ],
+    "menuItems": [
+        
+    ]
+}

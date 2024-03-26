@@ -1,0 +1,39 @@
+{
+    "id": "1184e481-28ab-485c-b6f6-c7f37b916300",
+    "author": "",
+    "widgets": [
+        {
+            "id": "visitor_management_newWidgets",
+            "name": "visitor_management_newWidgets",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+            "category":"",
+            "isTemplate": true/false // this will mark the widget as a template 
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "visitor_management_newWidgetsLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "visitor_management_newWidgetsLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "visitor_management_newWidgetsLink",
+            "title": "visitor_management_newWidgets"
+        }
+    ]
+}

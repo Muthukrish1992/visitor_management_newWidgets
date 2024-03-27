@@ -2,8 +2,11 @@ import React from "react";
 import {
   AsyncButton,
   Button,
+  Checkbox,
+  DatePicker,
   DateTimePicker,
   Input,
+  Label,
   Select,
 } from "uxp/components";
 import { IContextProvider } from "../uxp";
@@ -31,7 +34,7 @@ const MobileUIV2: React.FunctionComponent<IUIProps> = (props) => {
   let ed = addHours(sd, 1);
   // let [host, setHost] = React.useState('');
   let [email, setEmail] = React.useState("");
-
+  let [showEndDate,setShowEndDate]= React.useState(false)
   let [startDate, setStartDate] = React.useState<Date>(sd);
   let [endDate, setEndDate] = React.useState<Date>(ed);
 
@@ -85,19 +88,46 @@ const MobileUIV2: React.FunctionComponent<IUIProps> = (props) => {
             title={""}
           />
         </div>
-
-
-        <div className="field">
+        <div className="popchecks"> 
+        
+        <Checkbox checked={showEndDate} onChange={(isChecked)=>setShowEndDate(isChecked)} label='' type="change-icon" className="popincheck"></Checkbox>
+        <Label className="poplabelcheck">Multi Day Visit </Label> 
+         </div>
+            {!showEndDate &&(
+                    <div className="field">
+                    <label>* Duration</label>
+                    {/* <Input placeholder="Building 1" value={venue} onChange={setVenue} /> */}
+                    <Select
+                      options={[
+                        { label: "30 Minutes", value: 30 },
+                        { label: "1 hour", value: 60 },
+                        { label: "2 hours", value: 2 * 60 },
+                        { label: "3 hours", value: 3 * 60 },
+                        { label: "4 hours", value: 4 * 60 },
+                        { label: "6 hours", value: 6 * 60 },
+                        { label: "One Day", value: 24 * 60 },
+                      ]}
+                      labelField={"label"}
+                      valueField={"value"}
+                      selected={duration}
+                      onChange={(d) => {
+                        setDuration(d);
+                      }}
+                    />
+                  </div>
+            )}
+        {showEndDate && (
+        <div className="field enddate">
           <label className="label">End Date </label>
-          <DateTimePicker
-            datetime={endDate}
+          <DatePicker
+            title="End Date"
+            date={endDate}
             onChange={(date) => {
               setEndDate(date);
             }}
-            title={""}
           />
         </div>
-
+      )}
 
       <div className="field">
         <label>* Location</label>
@@ -212,92 +242,100 @@ const MobileUIV2: React.FunctionComponent<IUIProps> = (props) => {
       </div>
       <div className="spacer" />
       <div className="actions">
-        <AsyncButton
-          onClick={async () => {
-            visitors = [];
-            if (newVisitorName && newVisitorEmail) {
-              // Check if the duration is more than one day
-              const durationInDays = Math.floor(
-                (endDate.getTime() - startDate.getTime()) /
-                  (1000 * 60 * 60 * 24)
-              );
-              if (durationInDays > 0) {
-                // If duration is more than one day, add entry for each day
-                for (let i = 0; i <= durationInDays; i++) {
-                  const currentDate = new Date(startDate);
-                  currentDate.setDate(currentDate.getDate() + i);
-                  visitors.push({
-                    name: newVisitorName,
-                    email: newVisitorEmail,
-                    phone: newVisitorPhone,
-                    id: newVisitorId,
-                  });
-                }
-              } else {
-                // If duration is one day or less, add single entry
-                visitors.push({
-                  name: newVisitorName,
-                  email: newVisitorEmail,
-                  phone: newVisitorPhone,
-                  id: newVisitorId,
-                });
-              }
-            }
-            console.log("visitors :", visitors);
-            if (visitors.length === 0) {
-              alert("Please add some visitors");
-              return;
-            }
+      <AsyncButton
+onClick={async () => {
 
-            if (!venue) {
-              alert(
-                "You need to select the location at which the visitor should arrive"
-              );
-              return;
-            }
-            if (!title) {
-              alert("Please enter the purpose of this visit");
-              return;
-            }
+  // Temporary array to store visitors with date and duration
+  const visitorsWithDetails = [];
 
-            try {
-              // Validate all visitors
-              let validateVisitors = await props.uxpContext.executeAction(
-                "VisitorManagement",
-                "ValidateAllVisitors",
-                { visitors },
-                { json: true }
-              );
-              for (let i = 0; i < validateVisitors.length; i++) {
-                if (validateVisitors[i].status === "blacklisted") {
-                  throw `Blacklisted visitor - ${validateVisitors[i].email} found`;
-                }
-              }
-            } catch (error) {
-              // Handle other errors that might occur during the validation
-              alert(error);
-              return;
-            }
+  if (newVisitorName && newVisitorEmail) {
+    const durationInDays = Math.floor((endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
+    if (durationInDays > 0) {
+      // If duration is more than one day, add entry for each day
+      for (let i = 0; i <= durationInDays; i++) {
+        const currentDate = new Date(startDate);
+        currentDate.setDate(currentDate.getDate() + i);
+        visitorsWithDetails.push({
+          name: newVisitorName,
+          email: newVisitorEmail,
+          phone: newVisitorPhone,
+          id: newVisitorId,
+          date: currentDate.toISOString().slice(0, 10), // Add date
+          
+        });
+      }
+    } else {
+      // If duration is one day or less, add single entry
+      visitorsWithDetails.push({
+        name: newVisitorName,
+        email: newVisitorEmail,
+        phone: newVisitorPhone,
+        id: newVisitorId,
+        date: startDate.toISOString().slice(0, 10), // Add date
+        duration: duration, // Add duration
+      });
+    }
+  }
+  if (visitorsWithDetails.length === 0) {
+    alert("Please add some visitors");
+    return;
+  }
 
-            let r = await props.uxpContext.executeAction(
-              "VisitorManagement",
-              "RegisterMultipleVisits",
-              {
-                date: startDate,
-                duration: endDate,
-                location: venue,
-                title,
-                visitors,
-                token: getQueryString("token"),
-                url: location.href,
-                source: "Mobile " + newVisitorEmail,
-              },
-              { json: true }
-            );
-            setSubmitted(true);
-          }}
-          title={"Submit"}
-        />
+  if (!venue) {
+    alert("You need to select the location at which the visitor should arrive");
+    return;
+  }
+  if (!title) {
+    alert("Please enter the purpose of this visit");
+    return;
+  }
+
+  try {
+    // Validate all visitors
+    let validateVisitors = await props.uxpContext.executeAction(
+      "VisitorManagement",
+      "ValidateAllVisitors",
+      { visitors: visitorsWithDetails }, // Pass visitors with details
+      { json: true }
+    );
+    for (let i = 0; i < validateVisitors.length; i++) {
+      if (validateVisitors[i].status === "blacklisted") {
+        throw `Blacklisted visitor - ${validateVisitors[i].email} found`;
+      }
+    }
+  } catch (error) {
+    // Handle other errors that might occur during the validation
+    alert(error);
+    return;
+  }
+
+  let r = await Promise.all(visitorsWithDetails.map(async (visitor) => {
+    // Register each visitor separately
+    console.log("each day one entry")
+    return props.uxpContext.executeAction(
+      "VisitorManagement",
+      "RegisterVisit",
+      {
+        date: visitor.date,
+        duration: visitor.duration,
+        location: venue,
+        title,
+        visitor: visitor, // Pass individual visitor
+        token: getQueryString("token"),
+        url: location.href,
+        source: "Mobile " + visitor.email,
+      },
+      { json: true }
+    );
+  }));
+
+  setSubmitted(true);
+
+}}
+title={"Submit"}
+/>
+
+
       </div>
       <div className="spacer" />
     </div>

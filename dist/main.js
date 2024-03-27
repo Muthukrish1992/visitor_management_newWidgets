@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, "", ""]);
+exports.push([module.id, ".tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm {\n  position: relative;\n  padding-top: 80px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .uxp-widget-title-bar.tn-headers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .container {\n  width: 100%;\n  height: 100%;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .container .tn-items {\n  width: 100%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  align-items: center;\n  justify-content: space-between;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .container .tn-items .item.id, .tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .container .tn-items .item.name {\n  width: 100px;\n  flex-shrink: 0;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .container .tn-items .item.floor {\n  width: 100%;\n  text-align: left;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  padding: 20px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .top {\n  width: 100%;\n  height: 80%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: row;\n  justify-content: left;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .top .title {\n  position: relative;\n  padding: 6px 20px;\n  text-transform: uppercase;\n  font-weight: 900;\n  font-size: 11px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .top .title:before {\n  content: \"\";\n  width: 15px;\n  height: 15px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .top .count {\n  position: relative;\n  padding: 5px 0;\n  font-size: 11px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom {\n  width: 100%;\n  height: 20%;\n  flex-grow: 0;\n  flex-shrink: 0;\n  display: flex;\n  justify-content: space-between;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage {\n  font-size: 10px;\n  display: flex;\n  align-items: center;\n  padding: 5px 20px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg {\n  width: auto;\n  height: auto;\n  border-radius: 20px;\n  margin-left: 10px;\n  padding: 2px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg .icon-placeholder {\n  background-color: transparent;\n  width: 12px;\n  height: 12px;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg .icon-placeholder .icon {\n  width: 100%;\n  height: 100%;\n  background-position: top;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: saturate(100%) brightness(0%) invert(100%);\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg.up {\n  background-color: #52c4c9;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg.down {\n  background-color: #db7a7a;\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .percentage .icon-bg.down .icon {\n  transform: rotate(180deg);\n}\n.tenant-widget-0dfd811f-8ce6-4d12-e83f-04cf0c9779dcmmm .stat-tile .bottom .stat-btn {\n  margin: 0;\n}\n\n.xlabel {\n  width: 20%;\n  padding: 0px 0px;\n  margin: 0px 6px;\n  display: block;\n}\n\n.trixlabel {\n  width: 20%;\n  padding: 0px 0px;\n  margin: 0px 0px;\n  display: block;\n}\n\n.xinlabel {\n  width: 100%;\n  padding: 12px 20px;\n  margin: 1px 10px;\n  display: none;\n}\n\n.parentmodal {\n  width: 100%;\n  height: 100%;\n  padding: 25px 130px;\n  margin: 0px 20px;\n}\n.parentmodal .colz {\n  width: 100%;\n  display: inline-flex;\n  padding: 0px 0px;\n}\n.parentmodal .trimlabel {\n  width: 20%;\n  padding: 0px 0px;\n  margin: 0px 0px;\n}\n.parentmodal .uxp-form-input {\n  width: 100%;\n  padding: 12px 20px;\n  margin: 1px 10px;\n  display: block;\n}\n.parentmodal .uxp-form-input_invisible {\n  display: none;\n}\n.parentmodal .xinput {\n  width: 100%;\n  padding: 12px 20px;\n  margin: 1px 10px;\n  display: block;\n}\n.parentmodal .xselect {\n  width: 100%;\n  padding: 14px 20px;\n  margin: 1px 10px;\n  display: block;\n}\n.parentmodal .longdetail {\n  width: 100%;\n  display: none;\n}\n.parentmodal .tenantdiv {\n  width: 100%;\n  padding: 12px 60px;\n  margin: 10px 10px;\n  display: block;\n}\n.parentmodal .checks {\n  width: 70%;\n  display: inline-flex;\n  padding: 0px 0px;\n}\n.parentmodal .labelcheck {\n  width: 60%;\n  display: inline-flex;\n}\n.parentmodal .labelcheck .incheck {\n  width: auto;\n  padding: 0px 20px;\n  margin: 0px 40px;\n  display: inline-flex;\n  text-align: left;\n}\n.parentmodal .popupbtn {\n  text-align: center;\n  background-color: #1eb0ef;\n  border: none;\n  border-radius: 10px;\n  padding: 12px 80px;\n  margin: 0px 350px;\n}\n.parentmodal .popupbtntent {\n  text-align: center;\n  background-color: #1eb0ef;\n  border: none;\n  border-radius: 10px;\n  padding: 12px 80px;\n  margin: 10px 450px;\n}\n\n.image-uploader {\n  width: auto;\n  height: auto;\n  min-width: 200px;\n  min-height: 150px;\n}\n.image-uploader .uploader {\n  width: 100%;\n  height: 200px;\n  background-color: #f6f6f6;\n  border-radius: 10px;\n  margin-top: 10px;\n  position: relative;\n  z-index: 1;\n  border: 2px dashed rgba(0, 0, 0, 0.12);\n  overflow: hidden;\n}\n.image-uploader .uploader .file-input {\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  opacity: 0;\n}\n.image-uploader .uploader .preview {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: -1;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.image-uploader .uploader .preview .preview-image {\n  width: 100%;\n  height: 100%;\n  object-fit: contain;\n}\n.image-uploader .uploader .preview .default-message {\n  width: 100%;\n  height: 100%;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n}\n.image-uploader .uploader .preview .default-message .icon-cont {\n  width: 60px;\n  height: 40px;\n  background-color: transparent;\n}\n.image-uploader .uploader .preview .default-message .icon-cont .icon {\n  width: 100%;\n  height: 100%;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 60%;\n  filter: opacity(0.3);\n}\n.image-uploader .uploader .preview .default-message .message {\n  width: 100%;\n  height: auto;\n  padding: 10px;\n  text-align: center;\n  font-size: 11px;\n  color: #424242;\n  opacity: 0.8;\n}\n.image-uploader .uploader:hover {\n  border-style: solid;\n}\n.image-uploader .image-input {\n  width: 100%;\n  height: auto;\n  margin: 20px 0;\n  font-size: 12px;\n  color: #424242;\n  box-sizing: border-box;\n}\n.image-uploader .image-input .input-box {\n  width: 100%;\n  padding: 10px 0;\n  box-sizing: border-box;\n}\n.image-uploader .image-input .input-box .image-url-input {\n  width: 100%;\n  border-radius: 6px;\n  border: 1px solid rgba(0, 0, 0, 0.12);\n  background-color: white;\n  padding: 10px;\n  font-size: 11px;\n  box-sizing: border-box;\n  outline: none;\n}\n.image-uploader .footer {\n  width: 100%;\n  height: auto;\n  margin-top: 20px;\n  margin-bottom: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.image-uploader .footer .button {\n  width: auto;\n  height: auto;\n  border-radius: 50px;\n  background-color: #f5f5f5;\n  padding: 8px 10px;\n  display: inline-flex;\n  font-size: 12px;\n  cursor: pointer;\n  align-items: center;\n  justify-content: center;\n}\n.image-uploader .footer .button .icon-cont {\n  width: 20px;\n  height: 15px;\n  background-color: transparent;\n  margin-right: 5px;\n}\n.image-uploader .footer .button .icon-cont .icon {\n  width: 100%;\n  height: 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 60%;\n}\n.image-uploader .footer .button:hover {\n  background-color: white;\n  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.12);\n}\n\n.Camera.show {\n  display: block;\n}\n\n.Camera.hide {\n  display: none;\n}\n\n.takePhoto.show {\n  display: block;\n}\n\n.takePhoto.hide {\n  display: none;\n}\n\n.Submit.show {\n  display: block;\n}\n\n.Submit.hide {\n  display: none;\n}\n\n.ImageRef {\n  display: flex;\n  justify-content: center;\n}\n\n.buttons {\n  display: flex;\n  justify-content: center;\n  padding: 10px;\n  width: 300px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.CameraMod.show {\n  display: block;\n  width: 100%;\n  height: auto;\n  min-height: 10vh;\n  max-height: 98vh;\n  padding: 20px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  margin-bottom: 30px;\n  position: absolute;\n  top: 25%;\n  left: 0%;\n}\n.CameraMod.show .react-html5-camera-photo > img, .CameraMod.show .react-html5-camera-photo > video {\n  width: 500px;\n}\n.CameraMod.show .PhotoRef {\n  width: 500px;\n}\n.CameraMod.show .uxp-button.uxp-icon-button {\n  position: absolute;\n  top: 0%;\n  right: 30%;\n}\n\n.CameraMod.hide {\n  display: none;\n}\n\n.onSubmit.show {\n  display: block;\n}\n\n.onSubmit.hide {\n  display: none;\n}\n\n.takePhoto.hide {\n  display: none;\n}\n\n.takePhoto.show {\n  display: block;\n  height: 30px;\n  width: 160px;\n}\n\n.demo-image-preview {\n  position: relative;\n  text-align: center;\n}\n\n.demo-image-preview > img {\n  width: 768px;\n}\n\n@media (max-width: 768px) {\n  .demo-image-preview > img {\n    width: 100%;\n  }\n}\n/* fullscreen enable by props */\n.demo-image-preview-fullscreen > img {\n  width: 100vw;\n  height: 100vh;\n}\n\n.visitor-registration-modal .registration-form.blur {\n  opacity: 0.2;\n}\n\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc {\n  position: relative;\n  padding-top: 80px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .searchBox {\n  flex: auto;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .visitor-title {\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 80px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .dataTableWrapper {\n  position: relative;\n  height: 100%;\n  width: 100%;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .data-list-container .data-list > .data-table tr td {\n  padding: 15px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .data-list-container .data-list > .data-table thead tr th {\n  color: #3D3D3D;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .location {\n  font-size: 8px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .labelpop {\n  width: 20%;\n  padding: 0px 10px 200px;\n  margin: 0px 3000px;\n  display: block;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .tenantpopdiv {\n  width: 100%;\n  padding: 12px 60px;\n  margin: 10px 10px;\n  display: block;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .selectpop {\n  width: 100%;\n  padding: 14px 20px;\n  margin: 1px 10px;\n  display: block;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .selectpop_invisible {\n  display: none;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .uxp-form-input-reon {\n  width: 100%;\n  padding: 12px 20px;\n  margin: 1px 10px;\n  display: block;\n  cursor: not-allowed;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .popchecks {\n  width: 50%;\n  display: flex;\n  padding: 0px 0px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .poplabelcheck {\n  width: 60%;\n  display: inline-flex;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .poplabelcheck .popincheck {\n  width: auto;\n  padding: 0px 20px;\n  margin: 0px 40px;\n  display: inline-flex;\n  text-align: left;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .buttontntuser {\n  text-align: center;\n  background-color: #1eb0ef;\n  border: none;\n  border-radius: 10px;\n  padding: 12px 580px;\n  margin: 0px 350px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .editTenantbtn {\n  text-align: center;\n  background-color: #1eb0ef;\n  border: none;\n  border-radius: 10px;\n  padding: 12px 580px;\n  margin: 200px 350px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .tenantconfigbtn {\n  align-self: start;\n  text-align: center;\n  background-color: #1eb0ef;\n  border: none;\n  border-radius: 10px;\n  padding: 12px 80px;\n  margin: 10px 450px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .registerButton.container {\n  padding-top: 25px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .deleteItem {\n  background: #D65F5F 0% 0% no-repeat padding-box;\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);\n  border-radius: 12px;\n  width: 100%;\n  display: block;\n  padding-left: 0px;\n  padding-right: 0px;\n  padding: 10px;\n  color: white;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .checkin {\n  background: #52C98A 0% 0% no-repeat padding-box;\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);\n  border-radius: 12px;\n  padding: 10px;\n  padding-left: 0px;\n  padding-right: 0px;\n  display: block;\n  width: 100%;\n  color: white;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .disable {\n  text-decoration-color: #919291;\n  font-size: 12px;\n  padding: 10px;\n  font-weight: 1000;\n  color: #919291;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .enable {\n  color: #49C980;\n  font-size: 12px;\n  font-weight: 1000;\n  padding: 10px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .usergroup {\n  color: #818281;\n  font-size: 12px;\n  font-weight: 1000;\n  padding: 10px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .edittenantuser {\n  background-position: center;\n  background-color: #b2d8e7;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .data-list-container .data-list {\n  text-align: center;\n  background-color: transparent;\n  font-weight: lighter;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .statusRed {\n  color: #D65F5F;\n  background: #E4E4E4 0% 0% no-repeat padding-box;\n  border-radius: 12px;\n  padding: 10px;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .statusPurple {\n  color: #5752C9;\n  background: #E4E4E4 0% 0% no-repeat padding-box;\n  border-radius: 12px;\n  padding: 10px;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .statusGreen {\n  color: #52C982;\n  background: #E4E4E4 0% 0% no-repeat padding-box;\n  border-radius: 12px;\n  padding: 10px;\n  padding-left: 0px;\n  padding-right: 0px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc tr:nth-child(even) {\n  background-color: #F6F6F6;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .action-section {\n  display: flex;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .uxp-search-box-container {\n  margin-right: 20px;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .data-list-container .data-list > .data-table tr {\n  border-bottom: none;\n  border-top: none;\n}\n.tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc .data-list-container .data-list > .data-table thead tr {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n  position: relative;\n}\n\n.checkinVisitorTable {\n  background: #FFFFFF 0% 0% no-repeat padding-box;\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);\n  border-radius: 12px;\n  padding: 55px;\n}\n.checkinVisitorTable .checkin {\n  background: #49C980 0% 0% no-repeat padding-box;\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1019607843);\n  border-radius: 12px;\n  padding: 10px;\n  display: block;\n  width: 80%;\n  color: white;\n}\n.checkinVisitorTable .qrbutton {\n  background: #F8F8F8 0% 0% no-repeat padding-box;\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1019607843);\n  border-radius: 12px;\n  padding: 10px;\n  display: block;\n  width: 80%;\n  color: #3D3D3D;\n}\n\n.model-wrapper {\n  display: flex;\n}\n.model-wrapper .visitor-card {\n  margin-top: 0px;\n  padding-left: 55px;\n  padding-right: 55px;\n}\n\n.popchecks {\n  width: 50%;\n  display: flex;\n  padding: 0px 0px;\n}\n\n.poplabelcheck {\n  width: 60%;\n  display: inline-flex;\n}\n.poplabelcheck .popincheck {\n  width: auto;\n  padding: 0px 20px;\n  margin: 0px 40px;\n  display: inline-flex;\n  text-align: left;\n}\n\n.mobile-ui {\n  padding: 15px;\n}\n.mobile-ui .banner {\n  font-size: 1.5em;\n  font-weight: 900;\n}\n.mobile-ui .field-row {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.mobile-ui input.uxp-form-input {\n  background-color: white;\n  border: 1px solid rgba(128, 128, 128, 0.1803921569);\n}\n.mobile-ui .field {\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n.mobile-ui label {\n  margin-bottom: 0px;\n}\n.mobile-ui .new-visitor {\n  border-top: 1px solid rgba(128, 128, 128, 0.524);\n  margin-bottom: 20px;\n}\n.mobile-ui .new-visitor .h {\n  margin-top: 30px;\n  font-weight: bold;\n}\n.mobile-ui .visitor {\n  padding: 15px;\n  position: relative;\n  background-color: white;\n  border-radius: 10px;\n  margin-bottom: 10px;\n  border: 1px solid rgba(128, 128, 128, 0.2);\n}\n.mobile-ui .visitor .name {\n  font-size: 1.2em;\n  margin-bottom: 10px;\n}\n.mobile-ui .visitor .more {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.mobile-ui .visitor .deleter {\n  position: absolute;\n  right: 5px;\n  top: 15px;\n  font-size: 0.9em;\n}\n.mobile-ui .spacer {\n  height: 100px;\n}\n.mobile-ui .spacer {\n  height: 50px;\n}\n.mobile-ui .actions {\n  margin: 10px -15px -15px 40px;\n  padding: 20px;\n  text-align: center;\n}\n.mobile-ui .actions .uxp-button {\n  background-color: #5752c9;\n  color: white;\n  font-size: 1.2em;\n  text-align: center;\n  text-transform: uppercase;\n  padding: 10px 40px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -22440,6 +22440,7 @@ const MobileUIV2 = (props) => {
     let ed = (0, date_fns_1.addHours)(sd, 1);
     // let [host, setHost] = React.useState('');
     let [email, setEmail] = react_1.default.useState("");
+    let [showEndDate, setShowEndDate] = react_1.default.useState(false);
     let [startDate, setStartDate] = react_1.default.useState(sd);
     let [endDate, setEndDate] = react_1.default.useState(ed);
     let [title, setTitle] = react_1.default.useState("");
@@ -22465,8 +22466,8 @@ const MobileUIV2 = (props) => {
             react_1.default.createElement("div", { className: "icon" }),
             react_1.default.createElement("div", { className: "txt" }, "Your request has been submitted")));
     }
-    return (react_1.default.createElement("div", { className: "mobile-uiv2" },
-        react_1.default.createElement("div", { className: "banner" }, "Visitor Registration 3"),
+    return (react_1.default.createElement("div", { className: "mobile-ui" },
+        react_1.default.createElement("div", { className: "banner" }, "Visitor Registration"),
         react_1.default.createElement("div", { className: "field" },
             react_1.default.createElement("label", null, "* Purpose"),
             react_1.default.createElement(components_1.Input, { placeholder: "Purpose of the visit", value: title, onChange: setTitle })),
@@ -22475,11 +22476,27 @@ const MobileUIV2 = (props) => {
             react_1.default.createElement(components_1.DateTimePicker, { datetime: startDate, onChange: (date) => {
                     setStartDate(date);
                 }, title: "" })),
-        react_1.default.createElement("div", { className: "field" },
+        react_1.default.createElement("div", { className: "popchecks" },
+            react_1.default.createElement(components_1.Checkbox, { checked: showEndDate, onChange: (isChecked) => setShowEndDate(isChecked), label: '', type: "change-icon", className: "popincheck" }),
+            react_1.default.createElement(components_1.Label, { className: "poplabelcheck" }, "Multi Day Visit ")),
+        !showEndDate && (react_1.default.createElement("div", { className: "field" },
+            react_1.default.createElement("label", null, "* Duration"),
+            react_1.default.createElement(components_1.Select, { options: [
+                    { label: "30 Minutes", value: 30 },
+                    { label: "1 hour", value: 60 },
+                    { label: "2 hours", value: 2 * 60 },
+                    { label: "3 hours", value: 3 * 60 },
+                    { label: "4 hours", value: 4 * 60 },
+                    { label: "6 hours", value: 6 * 60 },
+                    { label: "One Day", value: 24 * 60 },
+                ], labelField: "label", valueField: "value", selected: duration, onChange: (d) => {
+                    setDuration(d);
+                } }))),
+        showEndDate && (react_1.default.createElement("div", { className: "field enddate" },
             react_1.default.createElement("label", { className: "label" }, "End Date "),
-            react_1.default.createElement(components_1.DateTimePicker, { datetime: endDate, onChange: (date) => {
+            react_1.default.createElement(components_1.DatePicker, { title: "End Date", date: endDate, onChange: (date) => {
                     setEndDate(date);
-                }, title: "" })),
+                } }))),
         react_1.default.createElement("div", { className: "field" },
             react_1.default.createElement("label", null, "* Location"),
             react_1.default.createElement(components_1.Select, { options: locations, labelField: "LocationName", valueField: "LocationID", selected: venue, onChange: (newLocation) => {
@@ -22540,36 +22557,37 @@ const MobileUIV2 = (props) => {
         react_1.default.createElement("div", { className: "spacer" }),
         react_1.default.createElement("div", { className: "actions" },
             react_1.default.createElement(components_1.AsyncButton, { onClick: () => __awaiter(void 0, void 0, void 0, function* () {
-                    visitors = [];
+                    // Temporary array to store visitors with date and duration
+                    const visitorsWithDetails = [];
                     if (newVisitorName && newVisitorEmail) {
-                        // Check if the duration is more than one day
-                        const durationInDays = Math.floor((endDate.getTime() - startDate.getTime()) /
-                            (1000 * 60 * 60 * 24));
+                        const durationInDays = Math.floor((endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
                         if (durationInDays > 0) {
                             // If duration is more than one day, add entry for each day
                             for (let i = 0; i <= durationInDays; i++) {
                                 const currentDate = new Date(startDate);
                                 currentDate.setDate(currentDate.getDate() + i);
-                                visitors.push({
+                                visitorsWithDetails.push({
                                     name: newVisitorName,
                                     email: newVisitorEmail,
                                     phone: newVisitorPhone,
                                     id: newVisitorId,
+                                    date: currentDate.toISOString().slice(0, 10), // Add date
                                 });
                             }
                         }
                         else {
                             // If duration is one day or less, add single entry
-                            visitors.push({
+                            visitorsWithDetails.push({
                                 name: newVisitorName,
                                 email: newVisitorEmail,
                                 phone: newVisitorPhone,
                                 id: newVisitorId,
+                                date: startDate.toISOString().slice(0, 10),
+                                duration: duration, // Add duration
                             });
                         }
                     }
-                    console.log("visitors :", visitors);
-                    if (visitors.length === 0) {
+                    if (visitorsWithDetails.length === 0) {
                         alert("Please add some visitors");
                         return;
                     }
@@ -22583,7 +22601,8 @@ const MobileUIV2 = (props) => {
                     }
                     try {
                         // Validate all visitors
-                        let validateVisitors = yield props.uxpContext.executeAction("VisitorManagement", "ValidateAllVisitors", { visitors }, { json: true });
+                        let validateVisitors = yield props.uxpContext.executeAction("VisitorManagement", "ValidateAllVisitors", { visitors: visitorsWithDetails }, // Pass visitors with details
+                        { json: true });
                         for (let i = 0; i < validateVisitors.length; i++) {
                             if (validateVisitors[i].status === "blacklisted") {
                                 throw `Blacklisted visitor - ${validateVisitors[i].email} found`;
@@ -22595,21 +22614,590 @@ const MobileUIV2 = (props) => {
                         alert(error);
                         return;
                     }
-                    let r = yield props.uxpContext.executeAction("VisitorManagement", "RegisterMultipleVisits", {
-                        date: startDate,
-                        duration: endDate,
-                        location: venue,
-                        title,
-                        visitors,
-                        token: getQueryString("token"),
-                        url: location.href,
-                        source: "Mobile " + newVisitorEmail,
-                    }, { json: true });
+                    let r = yield Promise.all(visitorsWithDetails.map((visitor) => __awaiter(void 0, void 0, void 0, function* () {
+                        // Register each visitor separately
+                        console.log("each day one entry");
+                        return props.uxpContext.executeAction("VisitorManagement", "RegisterVisit", {
+                            date: visitor.date,
+                            duration: visitor.duration,
+                            location: venue,
+                            title,
+                            visitor: visitor,
+                            token: getQueryString("token"),
+                            url: location.href,
+                            source: "Mobile " + visitor.email,
+                        }, { json: true });
+                    })));
                     setSubmitted(true);
                 }), title: "Submit" })),
         react_1.default.createElement("div", { className: "spacer" })));
 };
 exports["default"] = MobileUIV2;
+
+
+/***/ }),
+
+/***/ "./src/Components/TenantUserCountwidget.tsx":
+/*!**************************************************!*\
+  !*** ./src/Components/TenantUserCountwidget.tsx ***!
+  \**************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const memorizedData_1 = __importDefault(__webpack_require__(/*! ./memorizedData */ "./src/Components/memorizedData.tsx"));
+const TenantUserCountwidget = (props) => {
+    let [alltenant, setTenants] = react_1.default.useState([]);
+    let [tenantID, Settenant] = react_1.default.useState("");
+    let [data, setdata] = react_1.default.useState([]);
+    let [disabledselect, setstatus] = react_1.default.useState("");
+    let [userGroupselect, SetUserGroupselect] = react_1.default.useState("");
+    let [tenantIDselect, settenantselect] = react_1.default.useState("");
+    const query = (0, components_1.useDebounce)(tenantIDselect, 300);
+    let [tenantlogID, Setlogtenant] = react_1.default.useState("");
+    let Toast = (0, components_1.useToast)();
+    // Format date function to set time based on the flag
+    const formatDate = (date, isEndDate = false) => {
+        const isoDate = date.toISOString().split('T')[0]; // Get ISO date without time
+        const time = isEndDate ? '23:59:00Z' : '00:00:00Z'; // Adjust time based on isEndDate flag
+        return `${isoDate}T${time}`; // Append time
+    };
+    let [selectedStartDate, setSelectedStartDate] = react_1.default.useState(formatDate(new Date())); // Start Date always has time 00:00:00Z
+    // End Date is always the selected start date with time set to 23:59:00Z
+    const selectedEndDate = formatDate(new Date(selectedStartDate), true);
+    let [allfloors, setFloors] = react_1.default.useState([]);
+    let [floorID, Setfloor] = react_1.default.useState("");
+    const getPaginatedData = (0, react_1.useCallback)((max, lastToken) => {
+        return new Promise((done, nope) => {
+            let last = 0;
+            if (lastToken)
+                last = Number(lastToken);
+            props.uxpContext.executeAction("AccessControl", "GetTenantsCountByType", { max: max, last: last, tenantID: tenantID, StartDate: selectedStartDate, EndDate: selectedEndDate, Floor: floorID }, { json: true })
+                .then(res => {
+                done({ items: res, pageToken: (last + res.length).toString() });
+            })
+                .catch(e => {
+                console.log(e);
+                Toast.error;
+                done({ items: [], pageToken: lastToken });
+            });
+        });
+    }, [tenantID, selectedStartDate, selectedEndDate, floorID]);
+    function getTenants() {
+        return __awaiter(this, void 0, void 0, function* () {
+            props.uxpContext.executeAction('Tenant', 'GetAllTenants', {}, { json: true })
+                .then(res => {
+                const tenants = res.tenants;
+                if (tenants) {
+                    setTenants(tenants);
+                }
+                else {
+                    console.error("Invalid response structure:", res);
+                }
+            })
+                .catch(e => {
+                console.error("API Error:", e);
+            });
+        });
+    }
+    function getFloors() {
+        return __awaiter(this, void 0, void 0, function* () {
+            props.uxpContext.executeAction('Tenant', 'GetAllFloors', {}, { json: true })
+                .then(res => {
+                let FloorArray = [];
+                let floors = res;
+                for (var j = 0; j < floors.length; j++) {
+                    FloorArray.push({ FloorName: floors[j]["FloorName"], floorID: floors[j]["floorID"] });
+                }
+                setFloors(FloorArray);
+            })
+                .catch(e => {
+                console.error("API Error:", e);
+            });
+        });
+    }
+    react_1.default.useEffect(() => {
+        getFloors();
+        getTenants();
+    }, []);
+    const columns = react_1.default.useMemo(() => {
+        return [
+            {
+                title: "Tenant Name",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list visitorName" }, item.tenant))),
+            },
+            {
+                title: "User Type",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list UserGroup" }, item.userGroupName))),
+            },
+            {
+                title: "Count",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list count" }, item.count))),
+            }
+        ];
+    }, []);
+    return (react_1.default.createElement(components_1.WidgetWrapper, { className: "tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc" },
+        react_1.default.createElement(components_1.TitleBar, { className: "visitor-title", title: "User Attendance" },
+            react_1.default.createElement(components_1.FilterPanel, { onClear: () => {
+                    Setfloor("");
+                    Settenant("");
+                    setstatus("");
+                    SetUserGroupselect("");
+                    setSelectedStartDate(formatDate(new Date()));
+                } },
+                react_1.default.createElement(components_1.Label, null, "Tenant"),
+                react_1.default.createElement(components_1.Select, { placeholder: "Select a Tenant", options: alltenant, labelField: "tenantID", valueField: "tenantID", selected: tenantID, onChange: (val) => {
+                        Settenant(val);
+                    } }),
+                react_1.default.createElement(components_1.Label, null, "Floor"),
+                react_1.default.createElement(components_1.Select, { placeholder: "Select a Floor", options: allfloors, labelField: "floorID", valueField: "floorID", selected: floorID, onChange: (val) => {
+                        Setfloor(val);
+                    } }),
+                react_1.default.createElement(components_1.Label, null, "Date"),
+                react_1.default.createElement(components_1.DatePicker, { title: "Start Date", date: selectedStartDate, onChange: (date) => setSelectedStartDate(formatDate(date)) }))),
+        react_1.default.createElement("div", { className: "dataTableWrapper" },
+            react_1.default.createElement(memorizedData_1.default, { data: getPaginatedData, pageSize: 10, className: "visitorLog", columns: columns }))));
+};
+exports["default"] = TenantUserCountwidget;
+
+
+/***/ }),
+
+/***/ "./src/Components/TenantUserCountwidgetloggedin.tsx":
+/*!**********************************************************!*\
+  !*** ./src/Components/TenantUserCountwidgetloggedin.tsx ***!
+  \**********************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+// import React, { useEffect } from "react";
+// import { DatePicker, Button, Checkbox, DataTable, FilterPanel, FormField, IconButton, Input, Label, Modal, ProfileImage, SearchBox, Select, TitleBar, useToast, WidgetWrapper, useEventSubscriber, useDebounce } from "uxp/components";
+// import { IContextProvider, registerWidget } from "../uxp";
+// import MemorizedData from "./memorizedData";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+// interface ITenantUserProps {
+//     uxpContext?: IContextProvider,
+//     instanceId?: string,
+//     onClose?: () => void
+// }
+// const TenantUserCountwidgetloggedin: React.FunctionComponent<ITenantUserProps> = (props) => {
+//     let [alltenant, setTenants] = React.useState<any>([]);
+//     let [tenantID, Settenant] = React.useState("");
+//     let [data, setdata] = React.useState<any>([]);
+//     let [disabledselect, setstatus] = React.useState<any>("");
+//     let [userGroupselect, SetUserGroupselect] = React.useState("");
+//     let [tenantIDselect, settenantselect] = React.useState("");
+//     const query = useDebounce(tenantIDselect, 300);
+//     let [tenantlogID, Setlogtenant] = React.useState("")
+//     let Toast = useToast();
+//     const formatDate = (date:Date) => {
+//         return date.toISOString().split('T')[0];
+//       };
+//     let [selectedDate, setSelectedDate] = React.useState(formatDate(new Date()))
+//     let [allfloors, setFloors] = React.useState<any>([]);
+//     let [floorID, Setfloor] = React.useState("");
+//     async function getPaginatedData(max: number, lastToken: string) {
+//         // let ParamData = await props.uxpContext.executeAction('DigitalSignage', 'getFieldConfigurationParameters', { }, {json: true} );
+//         // console.log('Get Data from lucy action', ParamData);
+//         return new Promise<{ items: any[], pageToken: string }>((done, nope) => {
+//             let last = 0
+//             if (lastToken) last = Number(lastToken)
+//             props.uxpContext.executeAction("AccessControl", "GetTenantsCountByTypeloggedin", { max: max, last: last, tenantID: tenantID, StartDate: selectedDate, Floor: floorID }, {json: true} )
+//                 .then(res => {
+//                     done({ items: res, pageToken: ( last + res.length ).toString() })
+//                 })
+//                 .catch(e => {
+//                     console.log(e)
+//                     Toast.error
+//                 })
+//         })
+//     }
+//     async function getTenants() {
+//         // props.uxpContext.executeAction('AccessControl', 'GetAllSelectedTenants', {
+//         // }, { json: true })
+//         props.uxpContext.executeAction('Tenant', 'GetAllTenants', {
+//         }, { json: true })
+//             .then(res => {
+//                 console.log("API Response:", res);
+//                 const tenants = res.tenants
+//                 if (tenants) {
+//                     setTenants(tenants);
+//                     console.log("Tenants:", tenants);
+//                 } else {
+//                     console.error("Invalid response structure:", res);
+//                 }
+//             })
+//             .catch(e => {
+//                 console.error("API Error:", e);
+//             });
+//     }
+//     async function getFloors() {
+//         // props.uxpContext.executeAction('AccessControl', 'GetAllSelectedTenants', {
+//         // }, { json: true })
+//         props.uxpContext.executeAction('Tenant', 'GetAllFloors', {
+//         }, { json: true })
+//             .then(res => {
+//                 let FloorArray = []
+//                 let floors = res
+//                 for (var j = 0; j < floors.length; j++) {
+//                 FloorArray.push({ FloorName: floors[j]["FloorName"], floorID: floors[j]["floorID"] })
+//                 }
+//                 //console.log("Floor API Response:", res);
+//                 //alert(res)
+//                 setFloors(FloorArray);
+//                 console.log("floor:", FloorArray);
+//             })
+//             .catch(e => {
+//                 console.error("API Error:", e);
+//             });
+//     }
+//     function getloggedtenant() {
+//         props.uxpContext.executeAction("Tenant", "GetOnlyLoggedTenant", {}, { json: true })
+//             .then(res => {
+//                 Settenant(res.tenantID)
+//                 Setlogtenant(res.tenantID)
+//                 console.log(res)
+//             })
+//             .catch(e => {
+//                 console.log(e)
+//             })
+//     }
+//     React.useEffect(() => {
+//         getFloors()
+//         getTenants()
+//         getloggedtenant()
+//         setSelectedDate(formatDate(new Date()));
+//         console.log(new Date());
+//     }, [])
+//     React.useEffect(() => {
+//         getPaginatedData;
+//     }, [tenantID, selectedDate, floorID])
+//     const columns = React.useMemo(() => {
+//         return [
+//             {
+//                 title: "Tenant Name",
+//                 width: "20%",
+//                 renderColumn: (item: any) => (
+//                     <div>
+//                         <div className="data-list visitorName">{item._id}</div>
+//                     </div>
+//                 ),
+//             },
+//             {
+//                 title: "User Type",
+//                 width: "20%",
+//                 renderColumn: (item: any) => (
+//                     <div>
+//                         <div className="data-list UserGroup">{item.UserGroup}</div>
+//                     </div>
+//                 ),
+//             },
+//             {
+//                 title: "Count",
+//                 width: "20%",
+//                 renderColumn: (item: any) => (
+//                     <div>
+//                         <div className="data-list count">{item.count}</div>
+//                     </div>
+//                 ),
+//             }
+//         ];
+//     }, []);
+//     // Uncomment this code to sort the data by userName property in A to Z order
+//     data.sort((a: any, b: any) => a.userName.localeCompare(b.userName));
+//     return (
+//         <WidgetWrapper className="tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc">
+//             <TitleBar className="visitor-title" title="User Attendance">
+//                 {/* <SearchBox
+//                     value={tenantIDselect}
+//                     onChange={(newValue) => {
+//                         settenantselect(newValue);
+//                     }}
+//                 /> */}
+//                 <FilterPanel
+//                     onClear={() => {
+//                         // getData(100,'','','','','');
+//                         // setCounter(prev => prev + 1)
+//                         // getTenants();
+//                         Setfloor("");
+//                         Settenant("");
+//                         setstatus("");
+//                         SetUserGroupselect("");
+//                         //setSelectedDate(new Date(""));
+//                         setSelectedDate(formatDate(new Date()));
+//                     }}
+//                 >
+//                     <Label>Floor</Label>
+//                     <Select
+//                         placeholder="Select a Floor"
+//                         options={allfloors}
+//                         labelField="floorID"
+//                         valueField="floorID"
+//                         selected={floorID}
+//                         onChange={(val) => {
+//                             Setfloor(val);
+//                         }}
+//                     ></Select> 
+//                     <Label>Date</Label>
+//                         <DatePicker
+//                             title="Date"
+//                             date={
+//                                 selectedDate
+//                             }
+//                             onChange={(datex) => {setSelectedDate(formatDate(datex));
+//                             }
+//                             }
+//                         />
+//                 </FilterPanel>
+//             </TitleBar>
+//             <div className="dataTableWrapper">
+//                 <MemorizedData
+//                     data={getPaginatedData}
+//                     pageSize={10}
+//                     className="visitorLog"
+//                     columns={columns}
+//                 />
+//             </div>
+//         </WidgetWrapper>
+//     );
+// };
+// export default TenantUserCountwidgetloggedin;
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const memorizedData_1 = __importDefault(__webpack_require__(/*! ./memorizedData */ "./src/Components/memorizedData.tsx"));
+const TenantUserCountwidget = (props) => {
+    let [alltenant, setTenants] = react_1.default.useState([]);
+    let [tenantID, Settenant] = react_1.default.useState("");
+    let [data, setdata] = react_1.default.useState([]);
+    let [disabledselect, setstatus] = react_1.default.useState("");
+    let [userGroupselect, SetUserGroupselect] = react_1.default.useState("");
+    let [tenantIDselect, settenantselect] = react_1.default.useState("");
+    const query = (0, components_1.useDebounce)(tenantIDselect, 300);
+    let [tenantlogID, Setlogtenant] = react_1.default.useState("");
+    let Toast = (0, components_1.useToast)();
+    // Format date function to set time based on the flag
+    const formatDate = (date, isEndDate = false) => {
+        const isoDate = date.toISOString().split('T')[0]; // Get ISO date without time
+        const time = isEndDate ? '23:59:00Z' : '00:00:00Z'; // Adjust time based on isEndDate flag
+        return `${isoDate}T${time}`; // Append time
+    };
+    let [selectedStartDate, setSelectedStartDate] = react_1.default.useState(formatDate(new Date())); // Start Date always has time 00:00:00Z
+    // End Date is always the selected start date with time set to 23:59:00Z
+    const selectedEndDate = formatDate(new Date(selectedStartDate), true);
+    let [allfloors, setFloors] = react_1.default.useState([]);
+    let [floorID, Setfloor] = react_1.default.useState("");
+    const getPaginatedData = (0, react_1.useCallback)((max, lastToken) => {
+        return new Promise((done, nope) => {
+            let last = 0;
+            if (lastToken)
+                last = Number(lastToken);
+            props.uxpContext.executeAction("AccessControl", "GetTenantsCountByType", { max: max, last: last, tenantID: tenantID, StartDate: selectedStartDate, EndDate: selectedEndDate, Floor: floorID }, { json: true })
+                .then(res => {
+                done({ items: res, pageToken: (last + res.length).toString() });
+            })
+                .catch(e => {
+                console.log(e);
+                Toast.error;
+                done({ items: [], pageToken: lastToken });
+            });
+        });
+    }, [tenantID, selectedStartDate, selectedEndDate, floorID]);
+    function getTenants() {
+        return __awaiter(this, void 0, void 0, function* () {
+            props.uxpContext.executeAction('Tenant', 'GetAllTenants', {}, { json: true })
+                .then(res => {
+                const tenants = res.tenants;
+                if (tenants) {
+                    setTenants(tenants);
+                }
+                else {
+                    console.error("Invalid response structure:", res);
+                }
+            })
+                .catch(e => {
+                console.error("API Error:", e);
+            });
+        });
+    }
+    function getFloors() {
+        return __awaiter(this, void 0, void 0, function* () {
+            props.uxpContext.executeAction('Tenant', 'GetAllFloors', {}, { json: true })
+                .then(res => {
+                let FloorArray = [];
+                let floors = res;
+                for (var j = 0; j < floors.length; j++) {
+                    FloorArray.push({ FloorName: floors[j]["FloorName"], floorID: floors[j]["floorID"] });
+                }
+                setFloors(FloorArray);
+            })
+                .catch(e => {
+                console.error("API Error:", e);
+            });
+        });
+    }
+    function getloggedtenant() {
+        props.uxpContext.executeAction("Tenant", "GetOnlyLoggedTenant", {}, { json: true })
+            .then(res => {
+            Settenant(res.tenantID);
+            Setlogtenant(res.tenantID);
+            console.log(res);
+        })
+            .catch(e => {
+            console.log(e);
+        });
+    }
+    react_1.default.useEffect(() => {
+        getFloors();
+        getTenants();
+        getloggedtenant();
+    }, []);
+    const columns = react_1.default.useMemo(() => {
+        return [
+            {
+                title: "Tenant Name",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list visitorName" }, item.tenant))),
+            },
+            {
+                title: "User Type",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list UserGroup" }, item.userGroupName))),
+            },
+            {
+                title: "Count",
+                width: "20%",
+                renderColumn: (item) => (react_1.default.createElement("div", null,
+                    react_1.default.createElement("div", { className: "data-list count" }, item.count))),
+            }
+        ];
+    }, []);
+    return (react_1.default.createElement(components_1.WidgetWrapper, { className: "tenant-widget-wrpper-0dfd811f-8ce6-4d12-e83f-04cf0c9779dc" },
+        react_1.default.createElement(components_1.TitleBar, { className: "visitor-title", title: "User Attendance" },
+            react_1.default.createElement(components_1.FilterPanel, { onClear: () => {
+                    Setfloor("");
+                    Settenant("");
+                    setstatus("");
+                    SetUserGroupselect("");
+                    setSelectedStartDate(formatDate(new Date()));
+                } },
+                react_1.default.createElement(components_1.Label, null, "Tenant"),
+                react_1.default.createElement(components_1.Select, { placeholder: "Select a Tenant", options: alltenant, labelField: "tenantID", valueField: "tenantID", selected: tenantID, onChange: (val) => {
+                        Settenant(val);
+                    } }),
+                react_1.default.createElement(components_1.Label, null, "Floor"),
+                react_1.default.createElement(components_1.Select, { placeholder: "Select a Floor", options: allfloors, labelField: "floorID", valueField: "floorID", selected: floorID, onChange: (val) => {
+                        Setfloor(val);
+                    } }),
+                react_1.default.createElement(components_1.Label, null, "Date"),
+                react_1.default.createElement(components_1.DatePicker, { title: "Start Date", date: selectedStartDate, onChange: (date) => setSelectedStartDate(formatDate(date)) }))),
+        react_1.default.createElement("div", { className: "dataTableWrapper" },
+            react_1.default.createElement(memorizedData_1.default, { data: getPaginatedData, pageSize: 10, className: "visitorLog", columns: columns }))));
+};
+exports["default"] = TenantUserCountwidget;
+
+
+/***/ }),
+
+/***/ "./src/Components/memorizedData.tsx":
+/*!******************************************!*\
+  !*** ./src/Components/memorizedData.tsx ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importDefault(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const MemorizedDataTable = (props) => {
+    return react_1.default.createElement(components_1.DataTable, Object.assign({}, props));
+};
+exports["default"] = react_1.default.memo(MemorizedDataTable);
 
 
 /***/ }),
@@ -22652,13 +23240,17 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const TenantUserCountwidget_1 = __importDefault(__webpack_require__(/*! ./Components/TenantUserCountwidget */ "./src/Components/TenantUserCountwidget.tsx"));
+const TenantUserCountwidgetloggedin_1 = __importDefault(__webpack_require__(/*! ./Components/TenantUserCountwidgetloggedin */ "./src/Components/TenantUserCountwidgetloggedin.tsx"));
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const MobileUIV2_1 = __importDefault(__webpack_require__(/*! ./Components/MobileUIV2 */ "./src/Components/MobileUIV2.tsx"));
 const Visitor_management_newWidgetsWidget = (props) => {
     return (React.createElement(components_1.WidgetWrapper, null,
         React.createElement(components_1.TitleBar, { title: 'Visitor_management_newWidgets' },
             React.createElement(components_1.FilterPanel, null)),
-        React.createElement(MobileUIV2_1.default, null)));
+        React.createElement(MobileUIV2_1.default, null),
+        React.createElement(TenantUserCountwidget_1.default, null),
+        React.createElement(TenantUserCountwidgetloggedin_1.default, null)));
 };
 /**
  * Register as a Widget
@@ -22674,6 +23266,30 @@ const Visitor_management_newWidgetsWidget = (props) => {
         // minW: 12
         }
     }
+});
+(0, uxp_1.registerWidget)({
+    id: "TenantUserCountwidget",
+    widget: TenantUserCountwidget_1.default,
+    configs: {
+        layout: {
+            w: 8,
+            h: 8,
+            minH: 8,
+            minW: 5
+        }
+    },
+});
+(0, uxp_1.registerWidget)({
+    id: "TenantUserCountwidgetloggedin",
+    widget: TenantUserCountwidgetloggedin_1.default,
+    configs: {
+        layout: {
+        // w: 12,
+        // h: 12,
+        // minH: 12,
+        // minW: 12
+        },
+    },
 });
 (0, uxp_1.registerUI)({
     id: "mobile-uiv2",
@@ -22951,7 +23567,7 @@ module.exports = UXPComponents;
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"30ae10be-15ec-4ed6-ce18-5524e27173fc","author":"muthu","widgets":[{"id":"visitor_management_newWidgets","name":"visitor_management_newWidgets","description":"A sample widget","icon":"","tags":[],"category":"","isTemplate":false}],"sidebarLinks":[],"uis":[{"id":"mobile-uiv2","label":"Visitor Registration 3"}],"menuItems":[]}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"30ae10be-15ec-4ed6-ce18-5524e27173fc","author":"muthu","widgets":[{"id":"visitor_management_newWidgets","name":"visitor_management_newWidgets","description":"A sample widget","icon":"","tags":[],"category":"","isTemplate":false},{"id":"TenantUserCountwidgetloggedin","name":"Tenant wise User Attendance","description":"Tenant wise User Attendance","icon":"","tags":[]},{"id":"TenantUserCountwidget","name":"User Attendance","description":"User Attendance","icon":"","tags":[]}],"sidebarLinks":[],"uis":[{"id":"mobile-uiv2","label":"Visitor Registration 3"}],"menuItems":[]}');
 
 /***/ }),
 

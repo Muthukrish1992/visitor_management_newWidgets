@@ -868,4 +868,121 @@
     }
 
   }
-
+  .popchecks{
+    width: 50%;
+    display: flex;
+    padding: 0px 0px;
+    
+ }
+ .poplabelcheck{
+    width: 60%;
+    // padding: 0px 0px;
+    // margin: 0px 0px;
+ 
+    display: inline-flex;
+    .popincheck{
+        width: auto;
+        padding: 0px 20px;
+        margin: 0px 40px;
+        display: inline-flex;
+        text-align:left;  
+       
+      }
+    }
+    .mobile-ui {
+        .banner {
+          font-size: 1.5em;
+          font-weight: 900;
+        }
+      
+        padding: 15px;
+      
+        .field-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      
+        input.uxp-form-input {
+          background-color: white;
+          border: 1px solid #8080802e;
+        }
+      
+        .field {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      
+        label {
+          margin-bottom: 0px;
+        }
+      
+        .new-visitor {
+          border-top: 1px solid rgba(128, 128, 128, 0.524);
+          margin-bottom: 20px;
+      
+          .h {
+            margin-top: 30px;
+            font-weight: bold;
+          }
+        }
+      
+        .visitor {
+          padding: 15px;
+          position: relative;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #80808033;
+      
+          .name {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+          }
+      
+          .more {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+      
+          .deleter {
+            position: absolute;
+            right: 5px;
+            top: 15px;
+            font-size: 0.9em;
+          }
+        }
+      
+        .spacer {
+          height: 100px;
+        }
+        .spacer {
+          height: 50px;
+        }
+        .actions {
+          // position: fixed;
+          // left: 0px;
+          // right: 0px;
+          // bottom: 0px;
+          // height: 61px;
+          margin: 10px -15px -15px 40px;
+          // box-shadow: 1px 1px 8px 7px #00000052;
+          padding: 20px;
+          // background-color: #5752c9;
+          text-align: center;
+      
+          .uxp-button {
+            // background-color: #06F;
+            // color:white;
+            background-color: #5752c9;
+            // min-width:200px;
+            color: white;
+            font-size: 1.2em;
+            text-align: center;
+            text-transform: uppercase;
+            // font-family: nunito;
+            padding: 10px 40px;
+          }
+        }
+      }
